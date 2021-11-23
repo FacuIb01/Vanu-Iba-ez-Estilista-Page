@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Vanu Ibañez Estilista</title>
+</head>
+
+<body>
+    <div id="carritoBoton">
+        <button id="cerrarCarrito">
+            <ion-icon name="close-outline" class="transicionVerde"></ion-icon>
+        </button>
+        <div id="productosCarritoBoton">
+            <div class="carritoBotonVacio">
+                <h2>No hay nada disponible en el carrito!</h2>
+            </div>
+        </div>
+        <div id="precioCarritoBoton">
+            <p>Precio total </p><span id="precioCarrito">0</span>
+        </div>
+        <div id="botones">
+            <button class="finalizarCompraCarritoBoton">Finalizar Compra</button>
+            <button class="vaciarCarritoBoton">Vaciar Carrito</button>
+        </div>
+        </div>
+    <header>
+        <div class="logoConCarrito">
+            <div id="carrito">
+            <span>
+                    <ion-icon name="bag-outline"></ion-icon>
+                </span>
+            </div>
+            <a href="./index.html" class="logo">Vanu Ibañez Estilista</a>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <a href="./index.html" class="navLi">
+                        <li>Inicio</li>
+                    </a>
+                    <a href="./html/tienda.html" class="navLi">
+                        <li>Tienda</li>
+                    </a>
+                    <a href="./html/carrito.html" class="navLi">
+                        <li>Carrito</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+        <div class="menuMovile">
+            <div class="lineaNegra1"></div>
+            <div class="lineaNegra2"></div>
+            <div class="lineaNegra3"></div>
+        </div>
+        <div class="divMovile">
+            <nav class="navMovile">
+                <ul class="ulMovile">
+                    <li class="botonCerrarMenu"><ion-icon name="close-outline" class="cruzMenu"></ion-icon></li>
+                    <a href="#" class="aMovile">
+                        <li class="liMovile">Inicio</li>
+                    </a>
+                    <a href="./html/tienda.html" class="aMovile">
+                        <li class="liMovile">Tienda</li>
+                    </a>
+                    <a href="./html/carrito.html" class="aMovile">
+                        <li class="liMovile">Carrito</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="carrousel">
+        <div class="tituloSeccionUno">
+            <div class="lineaNegra"></div>
+            <div class="tituloDivs">
+                <h2>Peluqueria Femenina</h2>
+            </div>
+            <div class="lineaNegra"></div>
+        </div>
+        <div class="imgInicio">
+            <img src="./carrousel/carrousel (1).jpeg" alt="" id="imgCarrusel">
+        </div>
+    </section>
+    <section class="sobreMi">
+        <div class="tituloSeccionUno">
+            <div class="lineaNegra"></div>
+            <div>
+                <h2>Sobre Mí</h2>
+            </div>
+            <div class="lineaNegra"></div>
+            <div>
+            </div>
+        </div>
+        <div class="sobreMiContenedor">
+            <div class="imgSobreMi">
+                <img src="./imagesgise.png" alt="">
+            </div>
+            <div class="textoSobreMi">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate aliquam iusto earum sed nobis?
+                    Ad, mollitia suscipit voluptas ullam, deserunt quas sit obcaecati assumenda, cumque praesentium qui
+                    quisquam exercitationem incidunt. <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sunt vel dolores beatae, corrupti est
+                    architecto recusandae ullam distinctio inventore voluptatem culpa molestias odio minima quasi,
+                    harum, tempore fugit debitis! <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde harum iusto reiciendis neque
+                    nulla dignissimos ad assumenda, sed, ipsa commodi laborum officia itaque consequuntur cumque
+                    exercitationem labore suscipit asperiores?</p>
+            </div>
+        </div>
+    </section>
+    <section class="ubicacion">
+        <div class="tituloSeccionUno">
+            <div class="lineaNegra"></div>
+            <div>
+                <h2>Ubicación</h2>
+            </div>
+            <div class="lineaNegra"></div>
+        </div>
+        <div id="apiGoogle">
+        </div>
+    </section>
+    <footer>
+        <div class="tituloFooter">
+            <h2>Vanu Ibañez Estilista</h2>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/vanu.ibanez.estilista/" target="_blank">
+                <ion-icon name="logo-instagram" class="instagram"></ion-icon>
+            </a>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./app.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+
+</body>
+
+</html>
